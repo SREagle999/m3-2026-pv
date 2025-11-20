@@ -3,7 +3,7 @@ For each model, include an example with a dataset (feel free to import a new dat
 Files to be written:
 - linear regression (single + multivariable + output stats + transforms)
 - curve fit
-- logistic regression (+ confusion regression)
+- logistic regression (+ confusion matrix)
 - (S)ARIMA(X) (+ box-cox transform)
 - Markov chain (+ nonhomogeneous markov chain)
 - k-nearest neighbors
