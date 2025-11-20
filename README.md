@@ -12,6 +12,7 @@ Files to be written:
 - xgboost
 - ANOVA (though i think spencer has it in his stat_toolbox.py file?)
 - ANCOVA (said natasha ;) )
+- simple Monte Carlo (essentially an averaged random for loop)
 
 - Excel file reading + formatting
 - one-hot encoding + dummy variables
