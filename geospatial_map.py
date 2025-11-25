@@ -7,7 +7,7 @@ gdf = gdf.sort_values(by='ZipCode')
 # print(gdf.columns)
 
 # example heatmap - would use previously computed data
-gdf["Vulnerability"] = 0.0
+gdf['Vulnerability'] = 0.0
 for i in range(0,len(gdf['ZipCode'])):
     gdf.loc[i, 'Vulnerability'] = i / (len(gdf) - 1)
 
