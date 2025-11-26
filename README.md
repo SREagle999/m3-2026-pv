@@ -9,13 +9,12 @@ Files to be written:
 - support vector machine (+ all main kernels)
 - random forest regression
 - xgboost
-- ANOVA (though i think spencer has it in his stat_toolbox.py file?)
 - ANCOVA (said natasha ;) )
 - simple Monte Carlo (essentially an averaged random for loop)
-
 - Excel file reading + formatting
 - one-hot encoding + dummy variables
 
 Completed:
 - curve fit - GABE
 - general statistics toolbox - SPENCER
+- ANOVA
