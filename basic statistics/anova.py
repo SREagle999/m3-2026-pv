@@ -1,4 +1,3 @@
-import pandas as pd
 import descriptive_stats as ds
 from scipy.stats import f as f_dist
 
