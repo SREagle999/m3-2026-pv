@@ -141,10 +141,14 @@ class ZTest(HypothesisTest):
             )
     
 class TTest(HypothesisTest):
-    def __init__(self, x, y=None, mu=0, paired=False, pooled=True, alternative="two-tailed", alpha=0.05):
+    def __init__(self, x, y=None, mu=0, paired=False, pooled=True, regression=True, alternative="two-tailed", alpha=0.05):
         # Constructor for t-test class
 
         super().__init__(alternative=alternative, alpha=alpha)  # Call constructor of superclass
+
+        # If this is a t-Test for regression, we set the instance variables manually
+        self.regression = regression
+        if self.regression: return
 
         # Initialize instance variables
         self.x = x
