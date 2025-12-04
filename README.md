@@ -1,8 +1,7 @@
 For each model, include an example with a dataset (feel free to import a new dataset into the folder too!!)
 
 Files to be written:
-- linear regression (multivariable + output stats + transforms) - SPENCER is planning to work on this
-- logistic regression (+ confusion matrix)
+- multivariable linear regression
 - (S)ARIMA(X) (+ box-cox transform)
 - Markov chain (+ nonhomogeneous markov chain)
 - k-nearest neighbors
@@ -19,3 +18,4 @@ Completed:
 - general statistics toolbox - SPENCER
 - ANOVA
 - Simple Linear Regression
+- logistic regression (+ confusion matrix)
