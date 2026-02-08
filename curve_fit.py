@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 # data
-manchester = pd.read_excel("datasets/M3_2024_data.xlsx", sheet_name="Manchester",skiprows=1,nrows=30)
+manchester = pd.read_excel(".../datasets/M3_2024_data.xlsx", sheet_name="Manchester",skiprows=1,nrows=30)
 data = manchester.values.T
 x = np.array(data[0], dtype=float)
 y = np.array(data[2:], dtype=float)
